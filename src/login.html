@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/global.css">
+    <meta name="color-scheme" content="light">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section> <!-- Desktop -->
+        <div class="input-frame">
+            <form id="log-in">
+                <div class="contaner">
+                    <div class="input-f">
+                        <div class="row">
+                            <label class=custom-label for="user-name">Username</label>
+                            <div class="col-md-12 col-12">
+                                <input class="custom-input-box" type="text" id="username" name="username" placeholder="Username"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label class="custom-label"for="password">Password</label>
+                            <div class="col-md-12 col-12 d-flex">
+                                <input class="custom-input-box" type="password" id="password" name="password" placeholder="••••••••"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-2">
+                            <label class="switch">
+                                <input class="custom-checkbox" type="checkbox" id="sub-new" name="Subscribe to news">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="col-md-10 col-10">
+                            <label class="news-label" for="sub-new">Subscribe to News</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-12 d-flex">
+                            <input class="btn-input" type="submit" value="Sign In"/>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div>
+                <a class="forgot-psw" href="#forgot_password">Forgot password?</a>
+            </div>
+            <div class="rectangle"></div>
+
+            <div class="continue-with">
+                <div class="continue-text">or continue with</div>
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-md-6 col-6">
+                            <a class="btn-continue" href="#">
+                                <div class="continue-logo gg"></div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <a class="btn-continue" href="#">
+                                <div class="continue-logo fb"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="/scripts.js"></script>
+</body>
+</html>

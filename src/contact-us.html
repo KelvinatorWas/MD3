@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/global.css">
+    <meta name="color-scheme" content="light">
+    <title>Document</title>
+</head>
+  <body>
+    <section>
+        <div class="input-frame" style="min-width: 343px;">
+            <form id="contact">
+                <h2 style="padding-bottom: 32px;">Contact Us</h2>
+                <div class="container">
+                    <div class="row custom-row-c">
+                        <div class="col-md-6">
+                            <label class=custom-label for="fname">First Name</label>
+                            <input class="custom-input-box" type="text" id="fname" name="First Name" placeholder="First Name"/>
+                        </div>
+                        <div class="col-md-6">
+                            <label class=custom-label for="lname">Last Name</label>
+                            <input class="custom-input-box" type="text" id="lname" name="Last Name" placeholder="Last Name"/>
+                        </div>
+                    </div>
+                    <div class="row custom-row-c">
+                        <div class="col-md-6">
+                            <label class=custom-label for="email">E-male</label>
+                            <input class="custom-input-box" type="email" id="email" name="Email" placeholder="example@bazinga.com"/>
+                        </div>
+                        <div class="col-md-6">
+                            <label class=custom-label for="pnr">Phone Number</label>
+                            <input class="custom-input-box" type="tel" id="pnr" name="Phone Number" placeholder="123-456-7890"/>
+                        </div>
+                    </div>
+                    <div class="row custom-row-c">
+                        <div class="col-1">
+                            <label class="custom-checkbox-c">
+                                <input type="checkbox" checked="checked" id="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="col-auto d-flex align-items-center justify-content-start ">
+                            <label for="checked" class="news-label">Subscribe to News</label>
+
+                        </div>
+                    </div>
+
+                    <div class="row" style="padding-bottom:32px;">
+                        <div class="col-md-12">
+                            <label for="message" class="small-text">Message</label>
+                            <textarea class="text-bar" id="message" name="message input" placeholder="Type Message"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-end">
+                            <input class="btn-submit" type="submit" value="Submit"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <script src="/scripts.js"></script>
+  </body>
+</html>
